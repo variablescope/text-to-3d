@@ -1,5 +1,4 @@
 import torch.nn as nn
-from transformers import get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup
 import torch
 
 def get_optimizer(cfg, model):
